@@ -12,7 +12,6 @@
   </theme>
 
   <keyboard>
-    <default />
     <!-- Use a different terminal emulator -->
     <keybind key="W-Return">
       <action name="Execute" command="foot" />
