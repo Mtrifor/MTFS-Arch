@@ -1,0 +1,41 @@
+/* deskman - Personalización de estilo del escritorio */
+/* Edita este archivo para personalizar el diseño */
+
+.deskman-window {
+    background-color: #1e1e2e;
+}
+
+.deskman-icon-grid {
+    padding: 20px;
+}
+
+.deskman-icon-item {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 90px;
+    min-height: 90px;
+    transition: background 0.15s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.deskman-icon-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.deskman-icon-item:active {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.deskman-icon {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.deskman-icon-label {
+    font-family: "Noto Sans", "Liberation Sans", sans-serif;
+    font-size: 10pt;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.85);
+}
