@@ -1,0 +1,81 @@
+window {
+    background-color: #21222C;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#window-box {
+    background-color: rgba(33, 34, 44, 0.85);
+    border-radius: 20px;
+    padding: 40px 60px;
+    margin: 60px;
+}
+
+#clock-label {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#date-label {
+    color: #bbbbbb;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#input-label {
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+#input-field {
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #343746;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    min-width: 320px;
+}
+
+#input-field:focus {
+    border-color: #565890;
+    box-shadow: 0 0 0 1px #565890;
+}
+
+#unlock-button {
+    background-color: #343746;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#unlock-button:hover {
+    background-color: #565890;
+}
+
+#unlock-button:active {
+    background-color: #21222C;
+}
+
+#error-label {
+    color: #ff5555;
+    font-size: 13px;
+}
+
+#warning-label {
+    color: #ffb86c;
+    font-size: 13px;
+}
+
+#message-box infobar {
+    background-color: transparent;
+}
+
+#window-box infobar {
+    background-color: transparent;
+}

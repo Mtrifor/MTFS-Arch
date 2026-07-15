@@ -1,3 +1,13 @@
 labwc
 waybar
 fuzzel
+gtklock
+gtklock-userinfo-module
+gtklock-powerbar-module
+gtklock-playerctl-module
+swayidle
+sddm
+qt6-svg
+qt6-virtualkeyboard
+qt6-multimedia-ffmpeg
+qt6-5compat

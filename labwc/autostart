@@ -1,3 +1,4 @@
 #!/bin/sh
-waybar &
-
+swayidle -w \
+    timeout 600 'gtklock' \
+    before-sleep 'gtklock -d' &
