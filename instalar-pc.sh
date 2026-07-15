@@ -1,6 +1,6 @@
 sudo pacman -S labwc --noconfirm
 sudo pacman -S waybar --noconfirm
-sudo pacman -S sddm --noconfirm
+sudo pacman -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg qt6-5compat --noconfirm --noconfirm
 sudo pacman -S gtklock gtklock-userinfo-module gtklock-powerbar-module gtklock-playerctl-module --noconfirm
 sudo pacman -S swayidle --noconfirm
 #sudo pacman -S labwc --noconfirm
