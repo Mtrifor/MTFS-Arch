@@ -11,11 +11,15 @@
         "wlr/taskbar"
     ],
     "modules-right": [
+        "tray",
         "wireplumber",
         "bluetooth",
         "clock",
         "custom/system"
     ],
+    "tray": {
+    "spacing": 10
+    },
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 18,
@@ -46,7 +50,7 @@
     },
     "custom/menu": {
         "format": "",
-        "on-click": "fuzzel",
+        "on-click": "nwg-drawer",
         "tooltip": false
     },
     "custom/system": {

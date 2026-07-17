@@ -1,0 +1,143 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.notification-row {
+  outline: none;
+}
+
+.notification-row:focus,
+.notification-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.notification {
+  border-radius: 8px;
+  margin: 6px 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background: #1e1e2e;
+  border: 1px solid #313244;
+}
+
+.notification-content {
+  background: transparent;
+  padding: 6px;
+}
+
+.close-button {
+  background: transparent;
+  color: #cdd6f4;
+  text-shadow: none;
+  padding: 0;
+  border-radius: 100%;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.close-button:hover {
+  background: #45475a;
+}
+
+.notification-default-action:hover {
+  background: #313244;
+  border-radius: 8px;
+}
+
+.notification-action {
+  background: transparent;
+  border: 1px solid #45475a;
+  border-radius: 8px;
+  color: #cdd6f4;
+}
+
+.notification-action:hover {
+  background: #313244;
+}
+
+.image {
+  margin: 10px 20px;
+}
+
+.summary {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cdd6f4;
+  margin: 6px 0 0 10px;
+}
+
+.time {
+  font-size: 11px;
+  color: #6c7086;
+  margin: 6px 14px 0 0;
+}
+
+.body {
+  font-size: 13px;
+  color: #bac2de;
+  margin: 4px 0 0 10px;
+}
+
+.control-center {
+  background: #11111b;
+  border: 1px solid #313244;
+  border-radius: 12px;
+  margin: 8px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center-list-placeholder {
+  opacity: 0.5;
+  color: #6c7086;
+}
+
+.floating-notifications {
+  background: transparent;
+}
+
+.blank-window {
+  background: transparent;
+}
+
+.widget-title {
+  color: #cdd6f4;
+  margin: 8px;
+  font-size: 14px;
+}
+
+.widget-title > button {
+  background: transparent;
+  color: #89b4fa;
+  border: none;
+}
+
+.widget-title > button:hover {
+  background: #313244;
+}
+
+.widget-dnd {
+  color: #a6adc8;
+  margin: 8px;
+  font-size: 12px;
+}
+
+.widget-dnd > switch {
+  background: #45475a;
+  border-radius: 12px;
+}
+
+.widget-dnd > switch:checked {
+  background: #89b4fa;
+}
+
+.widget-dnd > slider {
+  background: #cdd6f4;
+  border-radius: 12px;
+}
+
+.widget-label {
+  color: #cdd6f4;
+  margin: 8px;
+}

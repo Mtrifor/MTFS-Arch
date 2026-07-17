@@ -1,4 +1,7 @@
 #!/bin/sh
-swayidle -w \
-    timeout 600 'gtklock' \
-    before-sleep 'gtklock -d' &
+nm-applet &
+swaync &
+waybar &
+awww-daemon &
+#swayidle -w timeout 600 'gtklock' before-sleep 'gtklock -d' &
+swayidle -w before-sleep 'gtklock -d' &

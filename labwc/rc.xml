@@ -12,9 +12,33 @@
   </theme>
 
   <keyboard>
+    <default />
     <!-- Use a different terminal emulator -->
+    <keybind key="A-Tab">
+      <action name="NextWindow" />
+    </keybind>
+    
+    <!-- Alt + Shift + Tab para volver a la Anterior ventana -->
+    <keybind key="A-S-Tab">
+      <action name="PreviousWindow" />
+    </keybind>
     <keybind key="W-Return">
-      <action name="Execute" command="foot" />
+      <action name="Execute" command="ghostty" />
+    </keybind>
+    <keybind key="W-END">
+      <action name="Execute" command="nwg-drawer" />
+    </keybind>
+    <keybind key="W-1">
+      <action name="GoToDesktop" to="1" follow="no" />
+    </keybind>
+    <keybind key="W-2">
+      <action name="GoToDesktop" to="2" follow="no" />
+    </keybind>
+    <keybind key="W-3">
+      <action name="GoToDesktop" to="3" follow="no" />
+    </keybind>
+    <keybind key="W-4">
+      <action name="GoToDesktop" to="4" follow="no" />
     </keybind>
     <!--
       Remove a previously defined keybind
@@ -35,4 +59,12 @@
     </context>
   </mouse>
 
+  <desktops number="4">
+    <names>
+      <name>1</name>
+      <name>2</name>
+      <name>3</name>
+      <name>4</name>
+    </names>
+</desktops>
 </labwc_config>
