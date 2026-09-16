@@ -36,7 +36,14 @@
 
 # XCURSOR_THEME=breeze_cursors
 # XCURSOR_THEME=capitaine-cursors
-# XCURSOR_SIZE=24
+XCURSOR_SIZE=24
+
+##
+## NVIDIA + wlroots compatibility
+##
+# WLR_RENDERER=vulkan
+# Let labwc select the hardware renderer provided by nouveau.
+WLR_NO_HARDWARE_CURSORS=1
 
 ##
 ## Disable hardware cursors. Most users would not want to do this, but if you

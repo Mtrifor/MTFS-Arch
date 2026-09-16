@@ -5,9 +5,19 @@ sudo pacman -S gtklock gtklock-userinfo-module gtklock-powerbar-module gtklock-p
 sudo pacman -S swayidle --noconfirm
 sudo pacman -S nwg-drawer --noconfirm
 sudo pacman -S blueman --noconfirm
-#sudo pacman -S labwc --noconfirm
-#sudo pacman -S labwc --noconfirm
-#sudo pacman -S labwc --noconfirm
+sudo pacman -S flatpak --noconfirm
+sudo pacman -S gnome-software-packagekit-plugin --noconfirm
+sudo pacman -S gnome-software --noconfirm
+sudo pacman -S yt-dlp ffmpeg vlc --noconfirm
+sudo pacman -S swaync libnotify --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
+#sudo pacman -S  --noconfirm
 
 
 CARPETA="$HOME/.config/"
@@ -30,15 +40,14 @@ ln -sf /home/maurotrifor/.pc-config/swaync /home/maurotrifor/.config/swaync
 #ln -sf /home/maurotrifor/.pc-config/labwc /home/maurotrifor/.config/labwc
 #ln -sf /home/maurotrifor/.pc-config/labwc /home/maurotrifor/.config/labwc
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo systemctl enable sddm.service
 
 sudo pacman -S ufw --noconfirm
 sudo ufw enable
 sudo systemctl enable ufw
 
-sudo pacman -S yt-dlp ffmpeg vlc --noconfirm
 
-sudo pacman -S swaync libnotify --noconfirm
 
 sudo tee /usr/local/bin/usb-notify > /dev/null << 'SCRIPT'
 #!/bin/bash

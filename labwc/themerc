@@ -16,7 +16,7 @@ window.titlebar.padding.width: 0
 window.titlebar.padding.height: 0
 
 # window border
-window.active.border.color: #aaaaaa
+window.active.border.color: #f70505
 window.inactive.border.color: #aaaaaa
 
 # ToggleKeybinds status indicator

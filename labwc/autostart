@@ -2,6 +2,9 @@
 nm-applet &
 swaync &
 waybar &
-awww-daemon &
+awww-daemon --no-cache &
+sleep 1
+awww img /home/maurotrifor/Descargas/feddy.avif &
+kanshi &
 #swayidle -w timeout 600 'gtklock' before-sleep 'gtklock -d' &
 swayidle -w before-sleep 'gtklock -d' &
